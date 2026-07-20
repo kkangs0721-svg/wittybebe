@@ -225,9 +225,11 @@ export default function HomePage() {
             전체보기 <ArrowRight className="w-3.5 h-3.5" />
           </Link>
         </div>
-        <div className="max-w-[52%] mx-auto grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6">
+        <div className="max-w-[52%] mx-auto flex overflow-x-auto gap-4 sm:gap-6 pb-4 scroll-smooth snap-x snap-mandatory no-scrollbar">
           {newArrivals.map((product) => (
-            <ProductCard key={product.id} product={product} />
+            <div key={product.id} className="w-[45%] sm:w-[30%] md:w-[22%] flex-shrink-0 snap-start">
+              <ProductCard product={product} />
+            </div>
           ))}
         </div>
       </section>
@@ -243,9 +245,11 @@ export default function HomePage() {
             전체보기 <ArrowRight className="w-3.5 h-3.5" />
           </Link>
         </div>
-        <div className="max-w-[52%] mx-auto grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6">
+        <div className="max-w-[52%] mx-auto flex overflow-x-auto gap-4 sm:gap-6 pb-4 scroll-smooth snap-x snap-mandatory no-scrollbar">
           {bestItems.map((product) => (
-            <ProductCard key={product.id} product={product} />
+            <div key={product.id} className="w-[45%] sm:w-[30%] md:w-[22%] flex-shrink-0 snap-start">
+              <ProductCard product={product} />
+            </div>
           ))}
         </div>
       </section>

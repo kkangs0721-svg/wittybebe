@@ -436,7 +436,7 @@ export default function HomePage() {
           {[
             "https://images.unsplash.com/photo-1519689680058-324335c77eba?q=80&w=300&auto=format&fit=crop",
             "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?q=80&w=300&auto=format&fit=crop",
-            "https://images.unsplash.com/photo-1604467707321-70d5ac404aab?q=80&w=300&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?q=80&w=300&auto=format&fit=crop",
             "https://images.unsplash.com/photo-1596870230751-ebdfce98ec42?q=80&w=300&auto=format&fit=crop",
             "https://images.unsplash.com/photo-1503919545889-aef636e10ad4?q=80&w=300&auto=format&fit=crop",
             "https://images.unsplash.com/photo-1471286174243-e7a4d9afb277?q=80&w=300&auto=format&fit=crop"

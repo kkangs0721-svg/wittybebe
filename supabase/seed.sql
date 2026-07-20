@@ -24,7 +24,7 @@ values
   ('88888888-8888-4888-8888-888888880003', '에어리 피치 리본 블라우스', 'airy-peach-bow-blouse', 
    '사랑스러운 살구빛 피치 톤에 넥라인 리본 디테일이 돋보이는 블라우스입니다. 잔잔한 셔링이 들어가 있어 입었을 때 볼륨감이 무척 사랑스럽습니다.', 
    '상의', '1-3세', 29000, null, 
-   'https://images.unsplash.com/photo-1604467707321-70d5ac404aab?q=80&w=600&auto=format&fit=crop', 'active'),
+   'https://images.unsplash.com/photo-1518831959646-742c3a90b378?q=80&w=600&auto=format&fit=crop', 'active'),
 
   -- Product 4
   ('88888888-8888-4888-8888-888888880004', '베어 자수 골지 실내복', 'bear-ribbed-loungewear', 
@@ -72,7 +72,7 @@ values
   ('88888888-8888-4888-8888-888888880011', '코지 와플 이지팬츠', 'cozy-waffle-easy-pants', 
    '입체적인 와플 조직감으로 피부에 닿는 면적을 최소화하여 쾌적하게 착용 가능한 유아 바지입니다. 신축성이 탁월해 잠옷이나 놀이복으로 매우 좋습니다.', 
    '내복', '1-3세', 19000, null, 
-   'https://images.unsplash.com/photo-1555009355-24b33595508c?q=80&w=600&auto=format&fit=crop', 'active'),
+   'https://images.unsplash.com/photo-1596464718042-3e284a141a0e?q=80&w=600&auto=format&fit=crop', 'active'),
 
   -- Product 12
   ('88888888-8888-4888-8888-888888880012', '오가닉 스트라이프 남아 셔츠', 'organic-stripe-shirt', 
@@ -89,10 +89,10 @@ values
   
   -- Product 2
   ('88888888-8888-4888-8888-888888880002', 'https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?q=80&w=600&auto=format&fit=crop', 0),
-  ('88888888-8888-4888-8888-888888880002', 'https://images.unsplash.com/photo-1555009355-24b33595508c?q=80&w=600&auto=format&fit=crop', 1),
+  ('88888888-8888-4888-8888-888888880002', 'https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?q=80&w=600&auto=format&fit=crop', 1),
 
   -- Product 3
-  ('88888888-8888-4888-8888-888888880003', 'https://images.unsplash.com/photo-1604467707321-70d5ac404aab?q=80&w=600&auto=format&fit=crop', 0),
+  ('88888888-8888-4888-8888-888888880003', 'https://images.unsplash.com/photo-1596870230751-ebdfce98ec42?q=80&w=600&auto=format&fit=crop', 0),
   ('88888888-8888-4888-8888-888888880003', 'https://images.unsplash.com/photo-1596870230751-ebdfce98ec42?q=80&w=600&auto=format&fit=crop', 1),
 
   -- Product 4
@@ -109,7 +109,7 @@ values
 
   -- Product 7
   ('88888888-8888-4888-8888-888888880007', 'https://images.unsplash.com/photo-1596870230751-ebdfce98ec42?q=80&w=600&auto=format&fit=crop', 0),
-  ('88888888-8888-4888-8888-888888880007', 'https://images.unsplash.com/photo-1604467707321-70d5ac404aab?q=80&w=600&auto=format&fit=crop', 1),
+  ('88888888-8888-4888-8888-888888880007', 'https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?q=80&w=600&auto=format&fit=crop', 1),
 
   -- Product 8
   ('88888888-8888-4888-8888-888888880008', 'https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=600&auto=format&fit=crop', 0),
@@ -124,7 +124,7 @@ values
   ('88888888-8888-4888-8888-888888880010', 'https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?q=80&w=600&auto=format&fit=crop', 1),
 
   -- Product 11
-  ('88888888-8888-4888-8888-888888880011', 'https://images.unsplash.com/photo-1555009355-24b33595508c?q=80&w=600&auto=format&fit=crop', 0),
+  ('88888888-8888-4888-8888-888888880011', 'https://images.unsplash.com/photo-1503919545889-aef636e10ad4?q=80&w=600&auto=format&fit=crop', 0),
   ('88888888-8888-4888-8888-888888880011', 'https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?q=80&w=600&auto=format&fit=crop', 1),
 
   -- Product 12

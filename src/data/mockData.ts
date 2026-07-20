@@ -49,14 +49,14 @@ export const mockProducts: Product[] = [
     price: 38000,
     originalPrice: 42000,
     image: "https://images.unsplash.com/photo-1519689680058-324335c77eba?q=80&w=600&auto=format&fit=crop",
-    hoverImage: "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?q=80&w=600&auto=format&fit=crop",
+    hoverImage: "https://images.unsplash.com/photo-1503919545889-aef636e10ad4?q=80&w=600&auto=format&fit=crop",
     category: "베이비",
     isNew: true,
     isBest: true,
     description: "100% 오가닉 코튼으로 제작되어 연약한 아기 피부에도 자극이 없는 오버롤입니다. 내추럴한 크림 톤에 부드러운 우드 단추 포인트로 감성을 더했습니다.",
     detailImages: [
       "https://images.unsplash.com/photo-1519689680058-324335c77eba?q=80&w=600&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?q=80&w=600&auto=format&fit=crop"
+      "https://images.unsplash.com/photo-1503919545889-aef636e10ad4?q=80&w=600&auto=format&fit=crop"
     ],
     sizes: ["XS (6~12m)", "S (1~2y)", "M (2~3y)", "L (3~4y)"],
     reviews: [
@@ -111,7 +111,7 @@ export const mockProducts: Product[] = [
     englishName: "Bear Ribbed Loungewear",
     price: 24000,
     image: "https://images.unsplash.com/photo-1503919545889-aef636e10ad4?q=80&w=600&auto=format&fit=crop",
-    hoverImage: "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=600&auto=format&fit=crop",
+    hoverImage: "https://images.unsplash.com/photo-1519689680058-324335c77eba?q=80&w=600&auto=format&fit=crop",
     category: "실내복",
     isNew: true,
     isBest: false,
@@ -131,14 +131,14 @@ export const mockProducts: Product[] = [
     englishName: "Sage Soft Knit Cardigan",
     price: 39000,
     originalPrice: 45000,
-    image: "https://images.unsplash.com/photo-1471286174243-e7a4d9afb277?q=80&w=600&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1596870230751-ebdfce98ec42?q=80&w=600&auto=format&fit=crop",
     hoverImage: "https://images.unsplash.com/photo-1519689680058-324335c77eba?q=80&w=600&auto=format&fit=crop",
     category: "아우터",
     isNew: false,
     isBest: true,
     description: "고급스러운 세이지 그린 컬러의 프리미엄 하프 게이지 니트 가디건입니다. 에어리하고 부드러운 아크릴+코튼 혼방 니트로 까슬거림이 전혀 없습니다.",
     detailImages: [
-      "https://images.unsplash.com/photo-1471286174243-e7a4d9afb277?q=80&w=600&auto=format&fit=crop"
+      "https://images.unsplash.com/photo-1596870230751-ebdfce98ec42?q=80&w=600&auto=format&fit=crop"
     ],
     sizes: ["S (1~2y)", "M (2~3y)", "L (3~4y)", "XL (4~5y)", "XXL (6~7y)"],
     reviews: [
@@ -152,7 +152,7 @@ export const mockProducts: Product[] = [
     englishName: "Acorn Baby Bucket Hat",
     price: 18000,
     image: "https://images.unsplash.com/photo-1515488042361-404e9250afef?q=80&w=600&auto=format&fit=crop",
-    hoverImage: "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=600&auto=format&fit=crop",
+    hoverImage: "https://images.unsplash.com/photo-1596870230751-ebdfce98ec42?q=80&w=600&auto=format&fit=crop",
     category: "악세서리",
     isNew: true,
     isBest: false,
@@ -189,14 +189,14 @@ export const mockProducts: Product[] = [
     name: "네추럴 베이직 슈트 (신생아용)",
     englishName: "Natural Baby Bodysuit",
     price: 22000,
-    image: "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=600&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1518831959646-742c3a90b378?q=80&w=600&auto=format&fit=crop",
     hoverImage: "https://images.unsplash.com/photo-1503919545889-aef636e10ad4?q=80&w=600&auto=format&fit=crop",
     category: "신생아",
     isNew: true,
     isBest: false,
     description: "피부가 극도로 민감한 아기들을 위해 100% 무형광 코튼으로 짜여진 바디수트입니다. 가랑이 부분 스냅 단추로 기저귀 교체가 간편합니다.",
     detailImages: [
-      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=600&auto=format&fit=crop"
+      "https://images.unsplash.com/photo-1518831959646-742c3a90b378?q=80&w=600&auto=format&fit=crop"
     ],
     sizes: ["Newborn (0~3m)", "3~6m", "6~12m"],
     reviews: [],
@@ -223,13 +223,13 @@ export const mockProducts: Product[] = [
     name: "세이지 퍼프 패딩 아우터",
     englishName: "Sage Puff Padded Outer",
     price: 78000,
-    image: "https://images.unsplash.com/photo-1471286174243-e7a4d9afb277?q=80&w=600&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1596870230751-ebdfce98ec42?q=80&w=600&auto=format&fit=crop",
     hoverImage: "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?q=80&w=600&auto=format&fit=crop",
     category: "아우터",
     isNew: false,
     isBest: true,
     description: "무겁지 않고 깃털처럼 가볍지만 뛰어난 보온력을 자랑하는 친환경 웰론 충전재 패딩 아우터입니다. 세이지 크림 컬러와 스탠드 카라 디자인이 모던합니다.",
-    detailImages: ["https://images.unsplash.com/photo-1471286174243-e7a4d9afb277?q=80&w=600&auto=format&fit=crop"],
+    detailImages: ["https://images.unsplash.com/photo-1596870230751-ebdfce98ec42?q=80&w=600&auto=format&fit=crop"],
     sizes: ["M (2~3y)", "L (3~4y)", "XL (4~5y)", "XXL (6~7y)"],
     reviews: [],
     qna: []
@@ -240,7 +240,7 @@ export const mockProducts: Product[] = [
     englishName: "Cozy Waffle Easy Pants",
     price: 19000,
     image: "https://images.unsplash.com/photo-1503919545889-aef636e10ad4?q=80&w=600&auto=format&fit=crop",
-    hoverImage: "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?q=80&w=600&auto=format&fit=crop",
+    hoverImage: "https://images.unsplash.com/photo-1596870230751-ebdfce98ec42?q=80&w=600&auto=format&fit=crop",
     category: "실내복",
     isNew: false,
     isBest: true,
@@ -255,13 +255,13 @@ export const mockProducts: Product[] = [
     name: "오가닉 스트라이프 남아 셔츠",
     englishName: "Organic Stripe Shirt",
     price: 32000,
-    image: "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?q=80&w=600&auto=format&fit=crop",
-    hoverImage: "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?q=80&w=600&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?q=80&w=600&auto=format&fit=crop",
+    hoverImage: "https://images.unsplash.com/photo-1596870230751-ebdfce98ec42?q=80&w=600&auto=format&fit=crop",
     category: "남아",
     isNew: false,
     isBest: true,
     description: "산뜻한 블루와 화이트 스트라이프의 단정한 칼라 아동 셔츠입니다. 데님 팬츠나 면바지와 함께 매칭해 격식 있는 자리나 나들이 룩으로 입기 좋습니다.",
-    detailImages: ["https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?q=80&w=600&auto=format&fit=crop"],
+    detailImages: ["https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?q=80&w=600&auto=format&fit=crop"],
     sizes: ["M (2~3y)", "L (3~4y)", "XL (4~5y)", "XXL (6~7y)"],
     reviews: [],
     qna: []
@@ -308,7 +308,7 @@ export const mockBlogs: Blog[] = [
       특히 위티베베 오가닉 오버롤 제품군은 염색도 내추럴 컬러 가공만을 고집하여 원단 그대로의 공기 함유량을 지키고 있습니다. 
       이번 여름, 아이의 시원하고 깨끗한 등원을 위해 오가닉 코튼을 선물해보세요.
     `,
-    image: "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=600&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1503919545889-aef636e10ad4?q=80&w=600&auto=format&fit=crop",
     date: "2026-07-11",
     author: "위티베베 맘센터 소장"
   },
@@ -339,14 +339,14 @@ export const mockReviews = [
   { id: "rev3", author: "송*아", rating: 4, date: "2026-07-10", content: "디자인은 100점 만점에 100점이에요. 골지 실내복은 평소 정사이즈보다 약간 더 길어서 한 치수 작게 사도 될 뻔했어요.", productName: "베어 자수 골지 실내복", image: "https://images.unsplash.com/photo-1503919545889-aef636e10ad4?q=80&w=300&auto=format&fit=crop" },
   { id: "rev4", author: "조*윤", rating: 5, date: "2026-07-08", content: "들꽃 나염 원피스 입혀서 야외 스냅 촬영하고 왔어요. 보는 사람마다 옷 어디서 샀냐고 귀엽대요~", productName: "들꽃 나염 리본 원피스", image: "https://images.unsplash.com/photo-1596870230751-ebdfce98ec42?q=80&w=300&auto=format&fit=crop" },
   { id: "rev5", author: "배*주", rating: 5, date: "2026-07-05", content: "버킷햇 너무 이뻐요. 아이가 모자 쓰는 거 귀찮아하는데 이건 흘러내림 없고 가벼워서 그런지 잘 쓰고 있네요.", productName: "도토리 베이비 버킷햇", image: "https://images.unsplash.com/photo-1515488042361-404e9250afef?q=80&w=300&auto=format&fit=crop" },
-  { id: "rev6", author: "안*연", rating: 5, date: "2026-07-01", content: "가디건 색감이 너무 이쁜 살구베이지 같아요. 에어컨 많이 트는 유치원에서 요즘 매일 입고 지냅니다.", productName: "세이지 소프트 코튼 카디건", image: "https://images.unsplash.com/photo-1471286174243-e7a4d9afb277?q=80&w=300&auto=format&fit=crop" }
+  { id: "rev6", author: "안*연", rating: 5, date: "2026-07-01", content: "가디건 색감이 너무 이쁜 살구베이지 같아요. 에어컨 많이 트는 유치원에서 요즘 매일 입고 지냅니다.", productName: "세이지 소프트 코튼 카디건", image: "https://images.unsplash.com/photo-1596870230751-ebdfce98ec42?q=80&w=300&auto=format&fit=crop" }
 ];
 
 export const mockLookbook = [
-  { id: "lk1", image: "https://images.unsplash.com/photo-1503919545889-aef636e10ad4?q=80&w=800&auto=format&fit=crop", title: "Natural Morning", desc: "오가닉 롬퍼와 코지 니삭스의 조화", productIds: ["1", "6"] },
-  { id: "lk2", image: "https://images.unsplash.com/photo-1519689680058-324335c77eba?q=80&w=800&auto=format&fit=crop", title: "Sweet Playtime", desc: "활동성과 스타일을 고루 갖춘 등원룩 세트", productIds: ["2"] },
-  { id: "lk3", image: "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?q=80&w=800&auto=format&fit=crop", title: "Warm Sunny Breeze", desc: "살구빛 블라우스와 사랑스러운 셔링 스냅", productIds: ["3"] },
-  { id: "lk4", image: "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?q=80&w=800&auto=format&fit=crop", title: "Vintage Wildflowers", desc: "풀밭 위에 핀 들꽃을 담은 리본 드레스", productIds: ["7"] },
-  { id: "lk5", image: "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop", title: "Bear Hug Naptime", desc: "피부에 가장 부드럽고 쫀득한 오가닉 골지 라인", productIds: ["4"] },
-  { id: "lk6", image: "https://images.unsplash.com/photo-1596870230751-ebdfce98ec42?q=80&w=800&auto=format&fit=crop", title: "Sage Garden Walks", desc: "계절과 계절을 이어주는 세이지 그린 카디건", productIds: ["5"] }
+  { id: "lk1", image: "https://images.unsplash.com/photo-1515488042361-404e9250afef?q=80&w=800&auto=format&fit=crop", title: "Natural Morning", desc: "오가닉 롬퍼와 코지 니삭스의 조화", productIds: ["1", "6"] },
+  { id: "lk2", image: "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?q=80&w=800&auto=format&fit=crop", title: "Sweet Playtime", desc: "활동성과 스타일을 고루 갖춘 등원룩 세트", productIds: ["2"] },
+  { id: "lk3", image: "https://images.unsplash.com/photo-1518831959646-742c3a90b378?q=80&w=800&auto=format&fit=crop", title: "Warm Sunny Breeze", desc: "살구빛 블라우스와 사랑스러운 셔링 스냅", productIds: ["3"] },
+  { id: "lk4", image: "https://images.unsplash.com/photo-1596870230751-ebdfce98ec42?q=80&w=800&auto=format&fit=crop", title: "Vintage Wildflowers", desc: "풀밭 위에 핀 들꽃을 담은 리본 드레스", productIds: ["7"] },
+  { id: "lk5", image: "https://images.unsplash.com/photo-1503919545889-aef636e10ad4?q=80&w=800&auto=format&fit=crop", title: "Bear Hug Naptime", desc: "피부에 가장 부드럽고 쫀득한 오가닉 골지 라인", productIds: ["4"] },
+  { id: "lk6", image: "https://images.unsplash.com/photo-1471286174243-e7a4d9afb277?q=80&w=800&auto=format&fit=crop", title: "Sage Garden Walks", desc: "계절과 계절을 이어주는 세이지 그린 카디건", productIds: ["5"] }
 ];

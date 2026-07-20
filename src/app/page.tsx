@@ -56,7 +56,7 @@ export default function HomePage() {
       tag: "COMFY PLAYWEAR COLLECTION"
     },
     {
-      image: "https://images.unsplash.com/photo-1471286174243-e7a4d9afb277?q=80&w=1600&auto=format&fit=crop",
+      image: "https://images.unsplash.com/photo-1596870230751-ebdfce98ec42?q=80&w=1600&auto=format&fit=crop",
       title: "스칸디나비아 자연의 색감을 닮다",
       subtitle: "눈이 편안하고 화사한 내추럴 뉴트럴 파스텔톤",
       tag: "ORGANIC NATURE STYLE"
@@ -258,21 +258,23 @@ export default function HomePage() {
           <p className="text-xs text-brand-secondary mt-2">화보를 클릭하여 착장된 유기농 의류 정보를 확인해 보세요.</p>
         </div>
 
-        {/* Pinterest Masonry Layout */}
-        <div className="columns-1 sm:columns-2 lg:columns-3 gap-6 space-y-6">
+        {/* Uniform Grid Layout */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {mockLookbook.map((look) => (
             <div
               key={look.id}
               onClick={() => setSelectedLook(look)}
-              className="break-inside-avoid relative group rounded-3xl overflow-hidden cursor-pointer shadow-sm hover:shadow-xl transition-all duration-300 border border-brand-border"
+              className="relative group rounded-3xl overflow-hidden cursor-pointer shadow-sm hover:shadow-xl transition-all duration-300 border border-brand-border flex flex-col"
             >
-              <Image
-                src={look.image}
-                alt={look.title}
-                width={600}
-                height={800}
-                className="w-full h-auto object-cover group-hover:scale-[1.03] transition-transform duration-700"
-              />
+              <div className="relative aspect-[3/4] w-full overflow-hidden bg-brand-primary/20">
+                <Image
+                  src={look.image}
+                  alt={look.title}
+                  fill
+                  className="object-cover group-hover:scale-[1.03] transition-transform duration-700"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                />
+              </div>
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6 text-white">
                 <span className="text-[10px] tracking-widest text-brand-primary uppercase font-bold">Witty Bébé Style</span>
                 <h3 className="text-lg font-bold font-serif mt-1">{look.title}</h3>
@@ -439,7 +441,7 @@ export default function HomePage() {
             "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?q=80&w=300&auto=format&fit=crop",
             "https://images.unsplash.com/photo-1596870230751-ebdfce98ec42?q=80&w=300&auto=format&fit=crop",
             "https://images.unsplash.com/photo-1503919545889-aef636e10ad4?q=80&w=300&auto=format&fit=crop",
-            "https://images.unsplash.com/photo-1471286174243-e7a4d9afb277?q=80&w=300&auto=format&fit=crop"
+            "https://images.unsplash.com/photo-1484665754804-74b091211472?q=80&w=300&auto=format&fit=crop"
           ].map((src, idx) => (
             <a
               key={idx}

@@ -343,10 +343,10 @@ export const mockReviews = [
 ];
 
 export const mockLookbook = [
-  { id: "lk1", image: "https://images.unsplash.com/photo-1519689680058-324335c77eba?q=80&w=800&auto=format&fit=crop", title: "Natural Morning", desc: "오가닉 롬퍼와 코지 니삭스의 조화", productIds: ["1", "6"] },
-  { id: "lk2", image: "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?q=80&w=800&auto=format&fit=crop", title: "Sweet Playtime", desc: "활동성과 스타일을 고루 갖춘 등원룩 세트", productIds: ["2"] },
-  { id: "lk3", image: "https://images.unsplash.com/photo-1604467707321-70d5ac404aab?q=80&w=800&auto=format&fit=crop", title: "Warm Sunny Breeze", desc: "살구빛 블라우스와 사랑스러운 셔링 스냅", productIds: ["3"] },
-  { id: "lk4", image: "https://images.unsplash.com/photo-1596870230751-ebdfce98ec42?q=80&w=800&auto=format&fit=crop", title: "Vintage Wildflowers", desc: "풀밭 위에 핀 들꽃을 담은 리본 드레스", productIds: ["7"] },
-  { id: "lk5", image: "https://images.unsplash.com/photo-1503919545889-aef636e10ad4?q=80&w=800&auto=format&fit=crop", title: "Bear Hug Naptime", desc: "피부에 가장 부드럽고 쫀득한 오가닉 골지 라인", productIds: ["4"] },
-  { id: "lk6", image: "https://images.unsplash.com/photo-1471286174243-e7a4d9afb277?q=80&w=800&auto=format&fit=crop", title: "Sage Garden Walks", desc: "계절과 계절을 이어주는 세이지 그린 카디건", productIds: ["5"] }
+  { id: "lk1", image: "https://images.unsplash.com/photo-1515488042361-404e9250afef?q=80&w=800&auto=format&fit=crop", title: "Natural Morning", desc: "오가닉 롬퍼와 코지 니삭스의 조화", productIds: ["1", "6"] },
+  { id: "lk2", image: "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?q=80&w=800&auto=format&fit=crop", title: "Sweet Playtime", desc: "활동성과 스타일을 고루 갖춘 등원룩 세트", productIds: ["2"] },
+  { id: "lk3", image: "https://images.unsplash.com/photo-1516627145497-ae6968895b74?q=80&w=800&auto=format&fit=crop", title: "Warm Sunny Breeze", desc: "살구빛 블라우스와 사랑스러운 셔링 스냅", productIds: ["3"] },
+  { id: "lk4", image: "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?q=80&w=800&auto=format&fit=crop", title: "Vintage Wildflowers", desc: "풀밭 위에 핀 들꽃을 담은 리본 드레스", productIds: ["7"] },
+  { id: "lk5", image: "https://images.unsplash.com/photo-1544126592-807add215123?q=80&w=800&auto=format&fit=crop", title: "Bear Hug Naptime", desc: "피부에 가장 부드럽고 쫀득한 오가닉 골지 라인", productIds: ["4"] },
+  { id: "lk6", image: "https://images.unsplash.com/photo-1537655780520-1e392edd816a?q=80&w=800&auto=format&fit=crop", title: "Sage Garden Walks", desc: "계절과 계절을 이어주는 세이지 그린 카디건", productIds: ["5"] }
 ];

@@ -92,14 +92,14 @@ export const mockProducts: Product[] = [
     name: "에어리 피치 리본 블라우스",
     englishName: "Airy Peach Bow Blouse",
     price: 29000,
-    image: "https://images.unsplash.com/photo-1604467707321-70d5ac404aab?q=80&w=600&auto=format&fit=crop",
-    hoverImage: "https://images.unsplash.com/photo-1596870230751-ebdfce98ec42?q=80&w=600&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1596870230751-ebdfce98ec42?q=80&w=600&auto=format&fit=crop",
+    hoverImage: "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?q=80&w=600&auto=format&fit=crop",
     category: "여아",
     isNew: true,
     isBest: false,
     description: "사랑스러운 살구빛 피치 톤에 넥라인 리본 디테일이 돋보이는 블라우스입니다. 잔잔한 셔링이 들어가 있어 입었을 때 볼륨감이 무척 사랑스럽습니다.",
     detailImages: [
-      "https://images.unsplash.com/photo-1604467707321-70d5ac404aab?q=80&w=600&auto=format&fit=crop"
+      "https://images.unsplash.com/photo-1596870230751-ebdfce98ec42?q=80&w=600&auto=format&fit=crop"
     ],
     sizes: ["S (1~2y)", "M (2~3y)", "L (3~4y)", "XL (4~5y)", "XXL (6~7y)"],
     reviews: [],
@@ -170,7 +170,7 @@ export const mockProducts: Product[] = [
     englishName: "Wildflower Ribbon Dress",
     price: 45000,
     image: "https://images.unsplash.com/photo-1596870230751-ebdfce98ec42?q=80&w=600&auto=format&fit=crop",
-    hoverImage: "https://images.unsplash.com/photo-1604467707321-70d5ac404aab?q=80&w=600&auto=format&fit=crop",
+    hoverImage: "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?q=80&w=600&auto=format&fit=crop",
     category: "여아",
     isNew: false,
     isBest: true,
@@ -343,10 +343,10 @@ export const mockReviews = [
 ];
 
 export const mockLookbook = [
-  { id: "lk1", image: "https://images.unsplash.com/photo-1515488042361-404e9250afef?q=80&w=800&auto=format&fit=crop", title: "Natural Morning", desc: "오가닉 롬퍼와 코지 니삭스의 조화", productIds: ["1", "6"] },
-  { id: "lk2", image: "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?q=80&w=800&auto=format&fit=crop", title: "Sweet Playtime", desc: "활동성과 스타일을 고루 갖춘 등원룩 세트", productIds: ["2"] },
-  { id: "lk3", image: "https://images.unsplash.com/photo-1516627145497-ae6968895b74?q=80&w=800&auto=format&fit=crop", title: "Warm Sunny Breeze", desc: "살구빛 블라우스와 사랑스러운 셔링 스냅", productIds: ["3"] },
-  { id: "lk4", image: "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?q=80&w=800&auto=format&fit=crop", title: "Vintage Wildflowers", desc: "풀밭 위에 핀 들꽃을 담은 리본 드레스", productIds: ["7"] },
-  { id: "lk5", image: "https://images.unsplash.com/photo-1519689680058-324335c77eba?q=80&w=800&auto=format&fit=crop", title: "Bear Hug Naptime", desc: "피부에 가장 부드럽고 쫀득한 오가닉 골지 라인", productIds: ["4"] },
-  { id: "lk6", image: "https://images.unsplash.com/photo-1537655780520-1e392edd816a?q=80&w=800&auto=format&fit=crop", title: "Sage Garden Walks", desc: "계절과 계절을 이어주는 세이지 그린 카디건", productIds: ["5"] }
+  { id: "lk1", image: "https://images.unsplash.com/photo-1503919545889-aef636e10ad4?q=80&w=800&auto=format&fit=crop", title: "Natural Morning", desc: "오가닉 롬퍼와 코지 니삭스의 조화", productIds: ["1", "6"] },
+  { id: "lk2", image: "https://images.unsplash.com/photo-1519689680058-324335c77eba?q=80&w=800&auto=format&fit=crop", title: "Sweet Playtime", desc: "활동성과 스타일을 고루 갖춘 등원룩 세트", productIds: ["2"] },
+  { id: "lk3", image: "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?q=80&w=800&auto=format&fit=crop", title: "Warm Sunny Breeze", desc: "살구빛 블라우스와 사랑스러운 셔링 스냅", productIds: ["3"] },
+  { id: "lk4", image: "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?q=80&w=800&auto=format&fit=crop", title: "Vintage Wildflowers", desc: "풀밭 위에 핀 들꽃을 담은 리본 드레스", productIds: ["7"] },
+  { id: "lk5", image: "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop", title: "Bear Hug Naptime", desc: "피부에 가장 부드럽고 쫀득한 오가닉 골지 라인", productIds: ["4"] },
+  { id: "lk6", image: "https://images.unsplash.com/photo-1596870230751-ebdfce98ec42?q=80&w=800&auto=format&fit=crop", title: "Sage Garden Walks", desc: "계절과 계절을 이어주는 세이지 그린 카디건", productIds: ["5"] }
 ];

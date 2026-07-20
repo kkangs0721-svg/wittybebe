@@ -16,13 +16,13 @@ export default function ProductCard({ product }: ProductCardProps) {
   const [hovered, setHovered] = useState(false);
   const [showSizePicker, setShowSizePicker] = useState(false);
 
-  const discountRate = product.originalPrice 
+  const discountRate = (product.originalPrice && product.price) 
     ? Math.round(((product.originalPrice - product.price) / product.originalPrice) * 100) 
     : 0;
 
   // Calculate average rating
-  const averageRating = product.reviews.length > 0 
-    ? (product.reviews.reduce((acc, r) => acc + r.rating, 0) / product.reviews.length).toFixed(1)
+  const averageRating = (product.reviews && product.reviews.length > 0) 
+    ? (product.reviews.reduce((acc, r: any) => acc + r.rating, 0) / product.reviews.length).toFixed(1)
     : "5.0";
 
   const handleQuickAdd = (size: string, e: React.MouseEvent) => {
@@ -93,7 +93,7 @@ export default function ProductCard({ product }: ProductCardProps) {
               <Star className="w-3 h-3 fill-current" />
             </div>
             <span className="text-[11px] font-semibold text-brand-text">{averageRating}</span>
-            <span className="text-[11px] text-brand-secondary/60">({product.reviews.length})</span>
+            <span className="text-[11px] text-brand-secondary/60">({product.reviews ? product.reviews.length : 0})</span>
           </div>
         </div>
 
@@ -103,13 +103,13 @@ export default function ProductCard({ product }: ProductCardProps) {
             {product.originalPrice && (
               <div className="flex items-center gap-1.5">
                 <span className="text-xs text-brand-secondary/70 line-through">
-                  {product.originalPrice.toLocaleString()}원
+                  {product.originalPrice ? product.originalPrice.toLocaleString() : "0"}원
                 </span>
                 <span className="text-xs font-bold text-brand-point">{discountRate}% Off</span>
               </div>
             )}
             <span className="text-base font-bold text-brand-text">
-              {product.price.toLocaleString()}원
+              {product.price ? product.price.toLocaleString() : "0"}원
             </span>
           </div>
 

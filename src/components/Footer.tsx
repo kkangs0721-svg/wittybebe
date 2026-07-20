@@ -3,6 +3,7 @@
 import React from "react";
 import Link from "next/link";
 import { MessageCircle, ArrowUp } from "lucide-react";
+import Logo from "./Logo";
 
 export default function Footer() {
   const scrollToTop = () => {
@@ -17,8 +18,8 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
           
           {/* Brand Info */}
-          <div className="space-y-4">
-            <span className="text-xl font-bold tracking-widest text-brand-text font-serif">WITTY BÉBÉ</span>
+          <div className="space-y-4 flex flex-col items-start">
+            <Logo className="text-lg md:text-xl" />
             <p className="text-xs text-brand-secondary font-medium tracking-wide">
               "아이의 하루를 더 사랑스럽게"
             </p>

@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
+import Logo from "./Logo";
 import { usePathname } from "next/navigation";
 import { useCart } from "@/context/CartContext";
 import { Search, User, ShoppingBag, Menu, X } from "lucide-react";
@@ -36,10 +37,8 @@ export default function Navigation() {
         </div>
 
         {/* Logo */}
-        <div className="flex-1 md:flex-initial text-center md:text-left">
-          <Link href="/" className="text-xl sm:text-2xl font-bold tracking-widest text-brand-text font-serif">
-            WITTY BÉBÉ
-          </Link>
+        <div className="flex-1 md:flex-initial text-center md:text-left flex items-center justify-center md:justify-start">
+          <Logo className="text-lg sm:text-xl md:text-2xl" />
         </div>
 
         {/* Desktop Nav Links */}

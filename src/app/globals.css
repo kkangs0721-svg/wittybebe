@@ -1,4 +1,5 @@
 @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@600;700&display=swap");
 @import "tailwindcss";
 
 @theme {
@@ -10,7 +11,12 @@
   --color-brand-success: #A8C3A0;
   --color-brand-border: #E9E5DF;
   
+  --color-pastel-pink: #FBCBDB;
+  --color-pastel-blue: #A9DEF9;
+  --color-pastel-yellow: #FFE79A;
+  
   --font-sans: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+  --font-rounded: 'Fredoka', sans-serif;
   
   --animate-fade-in: fade-in 0.5s ease-out;
   --animate-slide-up: slide-up 0.5s ease-out;

@@ -4,6 +4,7 @@ import React, { useEffect, useState } from "react";
 import { useCart } from "@/context/CartContext";
 import { X, Mail, Lock, Eye, EyeOff, User, Loader2 } from "lucide-react";
 import { supabase } from "../utils/supabase";
+import Logo from "./Logo";
 
 export default function LoginModal() {
   const { isLoginOpen, setLoginOpen } = useCart();
@@ -127,7 +128,9 @@ export default function LoginModal() {
 
         {/* Brand Logo Header */}
         <div className="text-center mb-6 mt-2">
-          <span className="text-2xl font-bold tracking-widest text-brand-text font-serif">WITTY BÉBÉ</span>
+          <div className="pointer-events-none cursor-default inline-block">
+            <Logo className="text-2xl" />
+          </div>
           <p className="text-xs text-brand-secondary font-medium tracking-wide mt-1">아이의 하루를 더 사랑스럽게</p>
         </div>
 

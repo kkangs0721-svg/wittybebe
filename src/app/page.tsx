@@ -90,10 +90,10 @@ export default function HomePage() {
     { name: "악세서리", icon: Sparkles, query: "악세서리" },
   ];
 
-  // New arrivals (first 4 isNew products)
-  const newArrivals = products.filter((p) => p.isNew).slice(0, 4);
-  // Best items (first 4 isBest products)
-  const bestItems = products.filter((p) => p.isBest).slice(0, 4);
+  // New arrivals (first 8 isNew products)
+  const newArrivals = products.filter((p) => p.isNew).slice(0, 8);
+  // Best items (first 8 isBest products)
+  const bestItems = products.filter((p) => p.isBest).slice(0, 8);
 
   // Lookbook items mapping
   const getLookbookProducts = (productIds: string[]): Product[] => {

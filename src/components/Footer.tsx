@@ -19,7 +19,7 @@ export default function Footer() {
           
           {/* Brand Info */}
           <div className="space-y-4 flex flex-col items-start">
-            <Logo className="text-lg md:text-xl" />
+            <Logo className="text-xl md:text-2xl" />
             <p className="text-xs text-brand-secondary font-medium tracking-wide">
               "아이의 하루를 더 사랑스럽게"
             </p>

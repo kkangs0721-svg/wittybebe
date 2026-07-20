@@ -129,7 +129,7 @@ export default function LoginModal() {
         {/* Brand Logo Header */}
         <div className="text-center mb-6 mt-2">
           <div className="pointer-events-none cursor-default inline-block">
-            <Logo className="text-2xl" />
+            <Logo className="text-3xl sm:text-4xl" />
           </div>
           <p className="text-xs text-brand-secondary font-medium tracking-wide mt-1">아이의 하루를 더 사랑스럽게</p>
         </div>

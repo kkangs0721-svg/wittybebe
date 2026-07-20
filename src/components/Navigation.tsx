@@ -38,7 +38,7 @@ export default function Navigation() {
 
         {/* Logo */}
         <div className="flex-1 md:flex-initial text-center md:text-left flex items-center justify-center md:justify-start">
-          <Logo className="text-lg sm:text-xl md:text-2xl" />
+          <Logo className="text-2xl sm:text-3xl md:text-4xl" />
         </div>
 
         {/* Desktop Nav Links */}

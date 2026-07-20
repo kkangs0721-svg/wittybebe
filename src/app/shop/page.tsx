@@ -121,7 +121,7 @@ function ShopContent() {
           <button
             key={cat}
             onClick={() => updateParams("category", cat)}
-            className={`px-5 py-2.5 rounded-full text-xs font-semibold tracking-wide whitespace-nowrap transition-all duration-300 border cursor-pointer ${
+            className={`px-5 py-2.5 rounded-full text-xs font-bold tracking-wide whitespace-nowrap transition-all duration-300 border cursor-pointer font-rounded ${
               categoryParam === cat
                 ? "bg-brand-secondary border-brand-secondary text-white shadow-sm"
                 : "bg-white border-brand-border text-brand-text hover:bg-brand-primary/20"

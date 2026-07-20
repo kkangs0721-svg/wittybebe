@@ -201,7 +201,7 @@ export default function HomePage() {
                 <div className="w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-brand-primary/30 border border-brand-border flex items-center justify-center text-brand-secondary group-hover:bg-brand-point group-hover:text-white transition-all duration-300 shadow-sm group-hover:shadow-md">
                   <Icon className="w-6 h-6 transition-transform group-hover:scale-110" />
                 </div>
-                <span className="mt-2.5 text-xs font-semibold text-brand-text/80 group-hover:text-brand-point tracking-wide transition-colors">
+                <span className="mt-2.5 text-xs font-bold text-brand-text/80 group-hover:text-brand-point tracking-wide transition-colors font-rounded">
                   {cat.name}
                 </span>
               </Link>

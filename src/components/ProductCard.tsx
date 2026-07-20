@@ -62,7 +62,7 @@ export default function ProductCard({ product }: ProductCardProps) {
       </div>
 
       {/* Image Gallery */}
-      <Link href={`/shop/${product.id}`} className="relative w-full aspect-[4/5] overflow-hidden bg-brand-primary/20 cursor-pointer">
+      <Link href={`/shop/${product.id}`} className="relative w-full aspect-[16/10] overflow-hidden bg-brand-primary/20 cursor-pointer">
         <Image
           src={hovered ? product.hoverImage : product.image}
           alt={product.name}

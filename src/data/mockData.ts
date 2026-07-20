@@ -348,5 +348,8 @@ export const mockLookbook = [
   { id: "lk3", image: "https://images.unsplash.com/photo-1518831959646-742c3a90b378?q=80&w=800&auto=format&fit=crop", title: "Warm Sunny Breeze", desc: "살구빛 블라우스와 사랑스러운 셔링 스냅", productIds: ["3"] },
   { id: "lk4", image: "https://images.unsplash.com/photo-1596870230751-ebdfce98ec42?q=80&w=800&auto=format&fit=crop", title: "Vintage Wildflowers", desc: "풀밭 위에 핀 들꽃을 담은 리본 드레스", productIds: ["7"] },
   { id: "lk5", image: "https://images.unsplash.com/photo-1503919545889-aef636e10ad4?q=80&w=800&auto=format&fit=crop", title: "Bear Hug Naptime", desc: "피부에 가장 부드럽고 쫀득한 오가닉 골지 라인", productIds: ["4"] },
-  { id: "lk6", image: "https://images.unsplash.com/photo-1471286174243-e7a4d9afb277?q=80&w=800&auto=format&fit=crop", title: "Sage Garden Walks", desc: "계절과 계절을 이어주는 세이지 그린 카디건", productIds: ["5"] }
+  { id: "lk6", image: "https://images.unsplash.com/photo-1471286174243-e7a4d9afb277?q=80&w=800&auto=format&fit=crop", title: "Sage Garden Walks", desc: "계절과 계절을 이어주는 세이지 그린 카디건", productIds: ["5"] },
+  { id: "lk7", image: "https://images.unsplash.com/photo-1484665754804-74b091211472?q=80&w=800&auto=format&fit=crop", title: "Sweet Dreams", desc: "부드러운 면 100% 자수 침구와 슬립웨어", productIds: ["4", "11"] },
+  { id: "lk8", image: "https://images.unsplash.com/photo-1519689680058-324335c77eba?q=80&w=800&auto=format&fit=crop", title: "Sunny Picnic", desc: "피크닉 가기 좋은 가벼운 린넨과 롬퍼", productIds: ["2", "3"] },
+  { id: "lk9", image: "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?q=80&w=800&auto=format&fit=crop", title: "Cozy Winter", desc: "찬 바람 부는 날 따뜻하고 가벼운 웰론 패딩", productIds: ["10"] }
 ];

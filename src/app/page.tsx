@@ -266,7 +266,7 @@ export default function HomePage() {
               onClick={() => setSelectedLook(look)}
               className="relative group rounded-3xl overflow-hidden cursor-pointer shadow-sm hover:shadow-xl transition-all duration-300 border border-brand-border flex flex-col"
             >
-              <div className="relative aspect-[3/4] w-full overflow-hidden bg-brand-primary/20">
+              <div className="relative aspect-[16/10] w-full overflow-hidden bg-brand-primary/20">
                 <Image
                   src={look.image}
                   alt={look.title}

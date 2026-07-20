@@ -116,7 +116,9 @@ export default function HomePage() {
               src={slide.image}
               alt={slide.title}
               fill
-              className="object-cover"
+              className={`object-cover transition-transform duration-[8000ms] ${
+                idx === heroIndex ? "animate-kenburns" : "scale-100"
+              }`}
               sizes="100vw"
               priority={idx === 0}
             />
@@ -124,31 +126,33 @@ export default function HomePage() {
             <div className="absolute inset-0 bg-gradient-to-r from-black/35 via-black/10 to-transparent" />
             
             {/* Hero Text */}
-            <div className="absolute inset-0 flex flex-col justify-center px-4 sm:px-12 md:px-24 text-white max-w-4xl space-y-4 md:space-y-6">
-              <span className="text-[11px] md:text-xs font-bold tracking-[0.25em] text-brand-primary uppercase animate-fade-in">
-                {slide.tag}
-              </span>
-              <h1 className="text-3xl sm:text-4xl md:text-6xl font-extrabold tracking-tight leading-tight drop-shadow-md animate-slide-up text-[#faf8f5]">
-                {slide.title}
-              </h1>
-              <p className="text-sm sm:text-base md:text-lg text-white/90 font-light max-w-lg drop-shadow-sm">
-                {slide.subtitle}
-              </p>
-              <div className="flex gap-3 pt-2">
-                <Link
-                  href="/shop"
-                  className="px-6 py-3 bg-white hover:bg-brand-primary text-brand-text font-semibold text-xs md:text-sm rounded-xl tracking-wider transition-all duration-300 active:scale-95 shadow-md"
-                >
-                  쇼핑하기
-                </Link>
-                <Link
-                  href="/shop?sort=new"
-                  className="px-6 py-3 bg-white/20 hover:bg-white/40 text-white font-semibold text-xs md:text-sm rounded-xl tracking-wider transition-all duration-300 active:scale-95 border border-white/30 backdrop-blur-sm"
-                >
-                  신상품 보기
-                </Link>
+            {idx === heroIndex && (
+              <div key={heroIndex} className="absolute inset-0 flex flex-col justify-center px-4 sm:px-12 md:px-24 text-white max-w-4xl space-y-4 md:space-y-6">
+                <span className="text-[11px] md:text-xs font-bold tracking-[0.25em] text-brand-primary uppercase animate-fade-in">
+                  {slide.tag}
+                </span>
+                <h1 className="text-3xl sm:text-4xl md:text-6xl font-extrabold tracking-tight leading-tight drop-shadow-md animate-slide-up text-[#faf8f5]">
+                  {slide.title}
+                </h1>
+                <p className="text-sm sm:text-base md:text-lg text-white/90 font-light max-w-lg drop-shadow-sm">
+                  {slide.subtitle}
+                </p>
+                <div className="flex gap-3 pt-2">
+                  <Link
+                    href="/shop"
+                    className="px-6 py-3 bg-white hover:bg-brand-primary text-brand-text font-semibold text-xs md:text-sm rounded-xl tracking-wider transition-all duration-300 active:scale-95 shadow-md"
+                  >
+                    쇼핑하기
+                  </Link>
+                  <Link
+                    href="/shop?sort=new"
+                    className="px-6 py-3 bg-white/20 hover:bg-white/40 text-white font-semibold text-xs md:text-sm rounded-xl tracking-wider transition-all duration-300 active:scale-95 border border-white/30 backdrop-blur-sm"
+                  >
+                    신상품 보기
+                  </Link>
+                </div>
               </div>
-            </div>
+            )}
           </div>
         ))}
 

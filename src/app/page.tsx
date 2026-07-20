@@ -225,7 +225,7 @@ export default function HomePage() {
             전체보기 <ArrowRight className="w-3.5 h-3.5" />
           </Link>
         </div>
-        <div className="max-w-[75%] mx-auto grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6">
+        <div className="max-w-[52%] mx-auto grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6">
           {newArrivals.map((product) => (
             <ProductCard key={product.id} product={product} />
           ))}
@@ -243,7 +243,7 @@ export default function HomePage() {
             전체보기 <ArrowRight className="w-3.5 h-3.5" />
           </Link>
         </div>
-        <div className="max-w-[75%] mx-auto grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6">
+        <div className="max-w-[52%] mx-auto grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6">
           {bestItems.map((product) => (
             <ProductCard key={product.id} product={product} />
           ))}
@@ -259,7 +259,7 @@ export default function HomePage() {
         </div>
 
         {/* Uniform Grid Layout */}
-        <div className="max-w-[75%] mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="max-w-[52%] mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {mockLookbook.map((look) => (
             <div
               key={look.id}

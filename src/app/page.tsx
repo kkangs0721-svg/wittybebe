@@ -90,10 +90,10 @@ export default function HomePage() {
     { name: "악세서리", icon: Sparkles, query: "악세서리" },
   ];
 
-  // New arrivals (first 8 isNew products)
-  const newArrivals = products.filter((p) => p.isNew).slice(0, 8);
-  // Best items (first 8 isBest products)
-  const bestItems = products.filter((p) => p.isBest).slice(0, 8);
+  // New arrivals (first 4 isNew products)
+  const newArrivals = products.filter((p) => p.isNew).slice(0, 4);
+  // Best items (first 4 isBest products)
+  const bestItems = products.filter((p) => p.isBest).slice(0, 4);
 
   // Lookbook items mapping
   const getLookbookProducts = (productIds: string[]): Product[] => {
@@ -219,7 +219,7 @@ export default function HomePage() {
         <div className="flex justify-between items-end mb-8 border-b border-brand-border pb-4">
           <div>
             <span className="text-[10px] font-bold tracking-widest text-brand-point uppercase">Just Arrived</span>
-            <h2 className="text-2xl font-bold text-brand-text font-serif">새로운 신상품</h2>
+            <h2 className="text-2xl font-bold text-brand-text font-serif">NEW</h2>
           </div>
           <Link href="/shop?sort=new" className="text-xs font-bold text-brand-secondary hover:text-brand-point transition-colors flex items-center gap-1">
             전체보기 <ArrowRight className="w-3.5 h-3.5" />
